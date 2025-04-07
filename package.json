@@ -1,0 +1,21 @@
+{
+  "name": "coffee_cake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass:./css --no-source-map",
+    "min:sass": "sass ./sass:./css --style=compressed --no-source-map",
+    "watch:sass": "sass ./sass:./css --watch",
+    "postcss": "postcss css/*.css --use autoprefixer --replace"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.86.0"
+  }
+}
