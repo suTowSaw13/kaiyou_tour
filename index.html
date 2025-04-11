@@ -11,12 +11,77 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <!--slick-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>			
 </head>
 <body>
-    
+    <header id="header">
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="海遊ツアー">
+            </a>
+        </h1>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navi">
+            <div class="menu-area">
+                <ul class="menu">
+                    <li><a href="#about">海遊ツアーとは</a></li>
+                    <li><a href="#introduction">ツアー紹介</a></li>
+                    <li><a href="#activity">アクティビティ</a></li>
+                    <li><a href="#map">マップ</a></li>
+                </ul>
+            
+                <ul class="btn">
+                    <li>
+                        <a href="">
+                            <img class="arrow" src="img/icon-arrow.svg" alt="">お問い合わせはこちら
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img class="arrow" src="img/icon-arrow.svg" alt="">ご予約はこちら
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>  
+    </header>
+    <main>
+        <div class="mainvisual">
+            <picture>
+                <source srcset="img/mainvisual-sp.jpg" media="(max-width: 767px)">
+                <img src="img/mainvisual-pc.jpg" alt="">
+            </picture>
+
+            <div class="wave">
+                <img src="img/wave-bottom.png" alt="">
+            </div>
+        </div>
+        <!--about-->
+        <div id="about">
+            <p class="title">海で遊ぼう！</p>
+            <p class="text">海には魅力がたくさんあります。<br>
+            海遊ツアーでは、<br>
+            そんな海の魅力を皆様に体験してもらうために、<br>
+            2津のプランをご用意いたしました。<br>
+            アクティビティを通して海を体験していただくプランと<br>
+            クルーザーに載って海を満喫していただくプランです。<br>
+            家族や仲間と一緒に、<br>
+            海遊ツアーを楽しんでください!
+            </p>
+            <div class="img">
+                <picture>
+                    <source srcset="img/about-img-sp.svg" media="(max-width: 767px)">
+                    <img src="img/about-img-pc.svg" alt="">
+                </picture>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
