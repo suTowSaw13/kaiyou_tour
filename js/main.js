@@ -82,3 +82,14 @@ $(function(){
         $("#map .spot5 .spot-img").hide();
     });
  });
+
+ //追従ボタン
+$(function() {
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 300) {
+            $("#fixed-btn").fadeIn();
+        }else {
+            $("#fixed-btn").fadeOut();
+        }
+    });
+});
